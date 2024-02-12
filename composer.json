@@ -1,0 +1,17 @@
+{
+  "name": "green-spot/mime-type",
+  "description": "",
+  "keywords": [],
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://github.com/green-spot/mime-type",
+  "authors": [
+    {
+      "name": "green spot",
+      "email": "in.green.spot@gmail.com"
+    }
+  ],
+  "autoload": {
+    "files": ["MimeType.php"]
+  }
+}
