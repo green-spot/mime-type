@@ -85,7 +85,7 @@ class MimeType {
   ];
 
   public static function get($fname){
-    $ext = preg_replace("/^(.+\\.?)([^\\.]+)$/", '$2', $fname);
+    $ext = preg_replace("/^(.+\\.)?([^\\.]+)$/", '$2', $fname);
     return isset(self::$mime_types[$ext]) ? self::$mime_types[$ext] : null;
   }
 
